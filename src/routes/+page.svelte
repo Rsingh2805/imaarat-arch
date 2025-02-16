@@ -1,8 +1,7 @@
 <script lang="ts">
-    import {redirect} from "$sveltejs/kit";
+    import {goto} from "$app/navigation";
+    import {base} from "$app/paths";
 
-    export function load() {
-        redirect("/home");
-    }
+    goto(`${base}/home`);
 
 </script>
