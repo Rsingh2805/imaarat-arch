@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.glass {
+    @apply bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 backdrop-saturate-100 backdrop-contrast-50;
+}
+
+.serif {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
