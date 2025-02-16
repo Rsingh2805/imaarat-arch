@@ -1,5 +1,6 @@
 <script lang="ts">
     import landing from "$lib/assets/landing.webp";
+    import {base} from "$app/paths";
 </script>
 
 <div
@@ -9,7 +10,7 @@
     <h1 class="text-5xl md:text-8xl font-black">IMAARAT</h1>
     <h2 class="text-5xl md:text-8xl font-black">ARCHITECTS</h2>
     <p class="serif mb-8 font-light">Transforming spaces into dreams</p>
-    <a class="bg-black text-white md:text-xl px-16 py-4 rounded-full uppercase font-thin" href="/contact">
+    <a class="bg-black text-white md:text-xl px-16 py-4 rounded-full uppercase font-thin" href="{base}/contact">
         Get in Touch
     </a>
 
